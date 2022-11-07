@@ -1922,3 +1922,5 @@ Foreach ($gpocategory in Get-ChildItem "$(Get-Location)\Files\GPOs") {
 Write-Host "Checking Backgrounded Processes" ; Get-Job
 Write-Host "Performing Group Policy Update" ; Gpupdate /force
 Write-Warning "A reboot is required for all changed to take effect"
+cmd
+CMD in administrator mode  
